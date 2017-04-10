@@ -1,5 +1,6 @@
 Styla - a Prolog in Scala,
 
+*Now transformed to an SBT project and ported to scala-2.12 with akka actors and remoting
 The name STYLA stands tentatively for "Scala Terms Yield Logic Agents" but hints
 toward the fact that style (seen as "elegance" of implementation) has been a major
 design principle behind it.
