@@ -1,6 +1,7 @@
-Styla - a Prolog in Scala,
+##Styla - a Prolog in Scala,##
 
-*Now transformed to an SBT project and ported to scala-2.12 with akka actors and remoting
+####Now transformed to an SBT project and ported to scala-2.12 with akka actors and remoting####
+
 The name STYLA stands tentatively for "Scala Terms Yield Logic Agents" but hints
 toward the fact that style (seen as "elegance" of implementation) has been a major
 design principle behind it.
@@ -83,3 +84,5 @@ open source Google project at:
 http://code.google.com/p/kernel-prolog/
 -------------------------------------------  
 New: development of Scala and Akka Actors.
+
+ [![Build Status](https://travis-ci.org/ganesh47/styla.svg?branch=master)](https://travis-ci.org/ganesh47/styla)
