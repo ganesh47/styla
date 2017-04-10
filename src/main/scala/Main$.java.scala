@@ -1,7 +1,5 @@
-package prolog
 import prolog.interp.Prog
-import prolog.io.IO
-import prolog.io.TermParser
+import prolog.io.{IO, TermParser}
 import prolog.terms.Term
 
 object Main extends App {
@@ -64,7 +62,7 @@ object Main extends App {
         IO.println("no (more) answers\n")
         prog.trail.unwind(0)
       }
-     
+
     }
   }
 }

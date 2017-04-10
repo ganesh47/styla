@@ -1,4 +1,4 @@
-package prolog
+import prolog.LogicEngine
 
 object MiniMain extends App {
 
@@ -14,4 +14,3 @@ object MiniMain extends App {
       println("answer=" + answer)
   }
 }
-
