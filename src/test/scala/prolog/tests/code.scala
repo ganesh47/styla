@@ -67,7 +67,7 @@ trait Instructions {
 
 object prog extends Prog 
 
-case class append0 extends FunBuiltin("app",3) {
+case class append0() extends FunBuiltin("app",3) {
   
     override def exec(p:Prog) : Int = {
       val oldtop=p.trail.size
@@ -84,7 +84,7 @@ case class append0 extends FunBuiltin("app",3) {
 }
 
 
-case class append1 extends FunBuiltin("app",3)  with Instructions {
+case class append1() extends FunBuiltin("app",3)  with Instructions {
   
     override def exec(p:Prog) : Int = {
       val oldtop=p.trail.size

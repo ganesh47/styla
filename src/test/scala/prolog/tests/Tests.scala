@@ -2,8 +2,8 @@ package prolog.tests
 import prolog.io.TermParser
 import prolog.terms._
 
-object Tests {
-
+object Tests extends App{
+utest
   def utest {
     println("ok")
     val X = new Var()
